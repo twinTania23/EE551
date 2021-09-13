@@ -10,22 +10,22 @@ def numbers_and_strings():
     This is to review numbers and strings and basic operations.
     """
     # Write the value 4 to the pwor of 5
-    x = 
+    x = 4**5
 
     # Assign a string "Stevens" to a variable y
-    y = 
+    y = ‘Stevens’
 
     # Repeat variable y 7 times
-    z = 
+    z = y*7
 
     # What is the length of z?
-    length = 
+    length = len(z)
 
     # Concatenate variable y with string " Great"
-    m = 
+    m = y+'Great'
 
     # Replace "Great" with "Good" in variable m and assign it to a new variable n
-    n = 
+    n = m.replace('Great','Good')
 
     return x, y, z, length, m, n
 
@@ -34,10 +34,10 @@ def lists():
     """
     This is to review basic operations with lists.
     """
-    n = 
+    n = "Hoboken is awesome"
 
     # Split variable n on a delimiter space into a list of substrings
-    p = 
+    p = ['Hoboken','is','awesome']
 
     # Get all the items past the first of the third substring
     r = 
