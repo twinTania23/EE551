@@ -40,7 +40,7 @@ def lists():
     p = ['Hoboken','is','awesome']
 
     # Get all the items past the first of the third substring
-    r = 
+    r = list(p[2])[1:]
 
     # Create a 3 x 3 matrix as nested list such that
     #   first row is [1, 4, 5]
